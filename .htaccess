@@ -1,0 +1,5 @@
+# BEGIN noindex (staging) - remove this block when the site goes live
+<IfModule mod_headers.c>
+    Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
+# END noindex (staging)

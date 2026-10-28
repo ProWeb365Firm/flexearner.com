@@ -1,0 +1,127 @@
+/*
+ Theme Name:   Soledad Child Theme
+ Theme URI:    http://pencidesign.com/
+ Description:  Soledad Child Theme - Made by PenciDesign
+ Author:       Pencidesign
+ Version:      1.0
+ Author URI:   http://pencidesign.com/
+ Template:     soledad
+ Text Domain:  soledad
+*/
+
+/* = Theme customization go here
+-------------------------------------------------------------- */
+.text-left{
+	text-align: left !important;
+}
+.penci-hbg-logo img{
+	max-width: 200px !important;
+}
+.header-standard.header-classic.single-header, .post-box-meta-single, .penci-breadcrumb.single-breadcrumb{
+	text-align: left !important;
+}
+#toc_container.toc_light_blue{
+	background: #f5f5f5 !important;
+}
+.grid-header-box{
+	text-align: left;
+}
+.penci-entry-title.entry-title.grid-title{
+	text-align: left;
+}
+.penci-grid li .item img, .penci-masonry .item-masonry a img{
+	max-height: 194px;
+	border: 1px solid #cccccc;
+}
+.grid-style.magazine-layout.magazine-2 .penci-image-holder:before{
+	display: none;
+}
+.featured-style-35 .penci-image-holder:before{
+	display: none;
+}
+.penci-menu-hbg ul.sub-menu li a, #sidebar-nav ul.sub-menu li a{
+	text-transform: capitalize;
+}
+.side-newsfeed .penci-image-holder:before{
+	display: none;
+}
+.penci_recent-posts-sc ul.side-newsfeed li .side-item .side-image img, .widget ul.side-newsfeed li .side-item .side-image img{
+	width: auto;
+	border: 1px solid #cccccc;
+}
+.archive.category .penci-image-holder:before, .post-related.penci-posts-related-grid .penci-image-holder:before{
+	display: none;
+}
+.archive-box{
+	text-align: left;
+}
+.archive-box span{
+	font-size: 16px;
+}
+.archive-box .title-bar h1{
+	color: #313131;
+	font-size: 16px;
+}
+.penci-container-inside.penci-breadcrumb i, .container.penci-breadcrumb i{
+	margin: 0 8px 0 10px;
+}
+.penci-page-header{
+	text-align: left;
+}
+.penci-related-grid-display .item-related img{
+	border: 1px solid #cccccc;
+}
+#toc_container{
+	border: 1px solid #cccccc;
+}
+#toc_container a{
+	font-size: 12px;
+	color: #128AC6;
+}
+#toc_container a:hover{
+	color: #128AC6 !important;
+}
+.post-title-box, #respond h3.comment-reply-title{
+	text-align: left;
+}
+.post-title-box h4{
+	padding: 0;
+}
+.view-count{
+	-webkit-animation-name: pencifadeInUpSmall;
+	-moz-animation-name: pencifadeInUpSmall;
+	-o-animation-name: pencifadeInUpSmall;
+	animation-name: pencifadeInUpSmall;
+	margin: 10px 0;
+}
+.view-count span{
+	color: #fff;
+}
+#author-page .penci-image-holder:before{
+	display: none;
+}
+.penci-readmore-btn.penci-btn-make-button a{
+	padding: 5px 10px;
+	text-transform: capitalize;
+    font-weight: normal !important;
+}
+.penci-grid .cat a.penci-cat-name, .penci-masonry .cat a.penci-cat-name{
+	color: #313131 !important;
+}
+.penci-grid .cat a.penci-cat-name:after, .penci-masonry .cat a.penci-cat-name:after{
+	border-color: #313131 !important;
+}
+@media(min-width: 993px) and (max-width: 1024px){
+	.featured-area{
+		margin-bottom: 30px;
+	}
+	.theiaStickySidebar .penci-grid{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.theiaStickySidebar .penci-grid > li{
+		width: 48.05%;
+		margin-right: 0;
+	}
+}
